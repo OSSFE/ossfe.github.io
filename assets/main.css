@@ -25,7 +25,7 @@
 }
 
 body{
-    background-color: #fafafa;
+    background-color: #F8F4F9;
     background-size: cover;
     background-attachment: fixed;
     color: #505050; 
@@ -37,12 +37,12 @@ body{
     width: 1000px;
 }
 
-a{color: #b8860b; text-decoration:none;}
+a{color: #E8C547; text-decoration:none;}
 a.current{color: #52739e;}
-a.current:hover{color: #e82945;}
+a.current:hover{color: #66A182;}
 a:hover{color: #b2132e;}
-a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+a:active{color: #66A182;}
+h1,h2,h3,h4{clear:left; color: #333F50; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
@@ -79,7 +79,7 @@ th,td{
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
-.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px;}
 
 /* Conference Title Logo */
 .title1{color: #b2132e;} 
