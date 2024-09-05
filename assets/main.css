@@ -127,3 +127,38 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
+
+
+.fancy-button {
+    background-color: #E8C547; /* Blue background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for proper sizing */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin for spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.fancy-button:hover {
+    background-color: #9f872f; /* Darker blue on hover */
+}
+
+.fancy-button:active {
+    background-color: #8b772f; /* Even darker blue when clicked */
+}
+
+.required.email {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+}
+
+.indicates-required {
+    float: right;
+    text-align: right;
+    width: 100%; /* Ensure it spans the full width */
+}
