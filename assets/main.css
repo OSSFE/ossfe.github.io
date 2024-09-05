@@ -411,3 +411,15 @@ footer {
 #mc-embedded-subscribe:active {
     background-color: #8b772f;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.video-container iframe {
+    max-width: 100%;
+}
