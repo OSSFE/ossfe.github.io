@@ -1,1 +1,11 @@
-{% include google_analytics.html %}
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include google_analytics.html %}
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
