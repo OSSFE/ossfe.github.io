@@ -149,6 +149,29 @@
         &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a>
     </footer>
 
+    <div id="cookie-banner" class="cookie-banner">
+        <p>This website uses cookies to ensure you get the best experience on our website.
+            <a href="cookie-policy" target="cookies">Learn more</a>.
+        </p>
+        <button id="accept-cookies" class="cookie-button">Accept</button>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            // Check if cookies are already accepted
+            if (!localStorage.getItem('cookiesAccepted')) {
+                document.getElementById('cookie-banner').style.display = 'block';
+            }
+
+            document.getElementById('accept-cookies').addEventListener('click', function () {
+                // Hide the banner
+                document.getElementById('cookie-banner').style.display = 'none';
+                // Store that the user accepted cookies
+                localStorage.setItem('cookiesAccepted', 'true');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
