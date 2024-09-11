@@ -198,13 +198,13 @@ td {
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation {
-    width: 800px;
+    width: 900px;
 }
 
 td.navigation {
     font-size: 1.67em;
     white-space: nowrap;
-    width: 20%;
+    width: 17%;
     text-align: center;
     vertical-align: middle;
     padding: 0px 0px 0px 0px;
