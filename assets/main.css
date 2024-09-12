@@ -198,7 +198,7 @@ td {
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation {
-    width: 900px;
+    width: 100%;
 }
 
 td.navigation {
