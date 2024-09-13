@@ -22,6 +22,15 @@
 </head>
 
 <body>
+    <div id="announcement-banner" class="announcement-banner">
+
+        <p>
+            <i class="fas fa-bullhorn banner-icon"></i>
+            <strong>Abstract submission open. Deadline
+                January 15, 2025 <br> <a href="submission">Click here and submit your abstract now!</a></strong>
+        </p>
+        <button id="close-banner" class="close-banner">X</button>
+    </div>
 
     <div class="banner">
         <img src="assets/OSSFE banner.png" style="width: 100%;" alt="OSSFE 2025 Banner">
@@ -117,25 +126,6 @@
         <li>Nick Murphy (Harvard University) <a href="https://github.com/namurphy"><i class="fab fa-github"></i></a>
         </li>
     </ul>
-    <!-- <table class="sponsors">
-        <tr>
-            <td class="sponsor">
-                <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten1.jpg" alt="First Sponsor Name">
-                </a>
-            </td>
-            <td class="sponsor">
-                <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten2.jpg" alt="Second Sponsor Name" style="width: 80%">
-                </a>
-            </td>
-            <td class="sponsor">
-                <a href="http://www.eyebleach.me/">
-                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
-                </a>
-            </td>
-        </tr>
-    </table> -->
 
     <footer>
         &copy; OSSFE 2025
@@ -164,6 +154,13 @@
                 // Store that the user accepted cookies
                 localStorage.setItem('cookiesAccepted', 'true');
             });
+        });
+    </script>
+
+    <!-- Function to close the announcement banner -->
+    <script>
+        document.getElementById('close-banner').addEventListener('click', function () {
+            document.getElementById('announcement-banner').style.display = 'none';
         });
     </script>
 
