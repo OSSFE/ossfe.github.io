@@ -457,3 +457,65 @@ footer {
     cursor: pointer;
     border-radius: 5px;
 }
+
+
+.announcement-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Ensure it starts from the very left of the screen */
+    right: 0;
+    /* Ensure it extends to the very right */
+    width: 100%;
+    background-color: #E8C547;
+    color: #333F50;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 16px;
+    z-index: 1001;
+    /* Higher than other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Optional shadow */
+    box-sizing: border-box;
+    /* Include padding in the element’s width */
+    margin: 0;
+    /* Remove any default margin */
+}
+
+.announcement-banner p {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    /* Allows the paragraph to take up available space */
+    text-align: center;
+    /* Center the text inside the paragraph */
+}
+
+.announcement-banner a {
+    color: #333F50;
+    text-decoration: underline;
+}
+
+.announcement-banner a:hover {
+    color: #52739e;
+}
+
+.close-banner {
+    background: none;
+    border: none;
+    color: #333F50;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.banner-icon {
+    font-size: 24px;
+    /* Size the icon appropriately */
+    margin-right: 10px;
+    /* Add spacing between the icon and the text */
+}
