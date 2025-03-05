@@ -64,35 +64,9 @@
     <p>
         Date: March 18, 2025
         <br>
-        Time: 7AM - 4PM EST (UTC-5)
+        Time: 7AM - 4PM EDT (UTC-4) (Boston, MA time)
         <br>
     </p>
-
-    <p>
-        In your local timezone, the event will take place from:
-        <span id="local-time"></span>
-    </p>
-    <script>
-        function convertToUserTimeZone() {
-            // Manually define EST time (UTC-5) without adjusting for DST
-            var estOffset = -5 * 60; // -5 hours in minutes
-            var eventStart = new Date(Date.UTC(2025, 2, 18, 12, 0)); // 7:00 AM EST = 12:00 PM UTC
-            var eventEnd = new Date(Date.UTC(2025, 2, 18, 21, 0));   // 4:00 PM EST = 9:00 PM UTC
-
-            // Format options for the user's local timezone
-            var options = { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' };
-
-            // Convert to user's local time
-            var localStartTime = eventStart.toLocaleString('en-US', options);
-            var localEndTime = eventEnd.toLocaleString('en-US', options);
-
-            // Display the converted local time
-            document.getElementById("local-time").textContent = localStartTime + " to " + localEndTime;
-        }
-
-        // Call the function on page load
-        convertToUserTimeZone();
-    </script>
 
     <p>
         The full agenda and abstracts for the OSSFE 2025 Conference can be found on this website.
